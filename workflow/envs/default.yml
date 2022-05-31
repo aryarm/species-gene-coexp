@@ -9,8 +9,10 @@ dependencies:
   - conda-forge::leidenalg==0.8.10
   - conda-forge::umap-learn==0.5.3
   - conda-forge::seaborn==0.11.2
+  - conda-forge::statsmodels==0.13.2
   - conda-forge::gawk==5.1.0
   - conda-forge::coreutils==8.31
   - conda-forge::sed==4.8
   - conda-forge::bash==5.0.018
   - conda-forge::gzip==1.10
+  - conda-forge::datamash==1.7
