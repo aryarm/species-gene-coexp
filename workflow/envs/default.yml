@@ -1,6 +1,8 @@
+name: /home/ethan/homework/dsc291/species-gene-coexp/data/default
 channels:
+  - bioconda
   - conda-forge
-  - nodefaults
+  - defaults
 dependencies:
   - conda-forge::ipython==8.3.0
   - conda-forge::irkernel==1.3
