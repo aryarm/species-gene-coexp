@@ -6,7 +6,7 @@
 # param2: the path to the metadata TSV
 # output: a TSV where celltypes are rows and genes are columns
 
-# ex: workflow/scripts/celltype_sum.bash data/dsc291/nemo_data/mouse_transcriptome/mouse.csv data/dsc291/nemo_data/mouse_transcriptome/meta_cols.tsv | gzip > data/prepared/mouse.tsv.gz
+# ex: workflow/scripts/celltype_sum.bash data/nemo_data/mouse_transcriptome/mouse.csv data/nemo_data/mouse_transcriptome/meta_cols.tsv | gzip > data/prepared/mouse.tsv.gz
 
 cat "$1" | \
 datamash transpose -t ';' | \
